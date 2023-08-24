@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "redhat", sans-serif;
+    text-decoration: none;
 }
 
 ::-webkit-scrollbar {
@@ -470,6 +471,15 @@ svg {
     height: 0;
 }
 
+.copyright {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.copyright span {
+    font-weight: bold;
+}
+
 /* Media Queries */
 /* Phone */
 @media (max-width: 480px) {
@@ -613,6 +623,10 @@ svg {
         bottom: 5%;
         right: -20%;
     }
+
+    .copyright {
+        font-size: 0.8em;
+    }
 }
 
 /* Tablet */
@@ -725,5 +739,9 @@ svg {
     .image {
         bottom: 5%;
         right: -15%;
+    }
+
+    .copyright {
+        font-size: 1em;
     }
 }
