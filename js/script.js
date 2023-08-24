@@ -28,6 +28,12 @@ let p3 = document.querySelector(".paragraf2");
 window.addEventListener("scroll", function () {
     var value = window.scrollY;
 
+    if (value > 10) {
+        this.document.querySelector("nav").classList.add("top");
+    } else {
+        this.document.querySelector("nav").classList.remove("top");
+    }
+
     // Section 1
     if (this.window.innerWidth >= 1080) {
         s1_l1.style.top = value * 0.2 + "px";

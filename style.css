@@ -15,6 +15,32 @@
     display: none;
 }
 
+nav {
+    position: fixed;
+    z-index: 999;
+    left: 20px;
+    top: 10px;
+    right: 20px;
+    height: auto;
+    padding: 10px;
+    transition: 1s;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 10px;
+}
+
+nav.top {
+    top: 0;
+    right: 10px;
+    left: 10px;
+}
+
+nav img {
+    width: 7%;
+}
+
 section {
     overflow-x: hidden;
 }
