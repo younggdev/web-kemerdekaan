@@ -29,7 +29,7 @@ window.addEventListener("scroll", function () {
     var value = window.scrollY;
 
     // Section 1
-    if (this.window.innerWidth >= 1024) {
+    if (this.window.innerWidth >= 1080) {
         s1_l1.style.top = value * 0.2 + "px";
         s1_l2.style.top = value * 0.4 + "px";
         s1_l3.style.top = value * 0.4 + "px";
@@ -45,7 +45,7 @@ window.addEventListener("scroll", function () {
     } else if (value > content.offsetTop - 900 && this.window.innerWidth > 480 && this.window.innerWidth <= 800) {
         judul.classList.add("muncul");
         p.classList.add("muncul");
-    } else if (value > content.offsetTop - 400 && this.window.innerWidth >= 1024) {
+    } else if (value > content.offsetTop - 400 && this.window.innerWidth >= 1080) {
         judul.classList.add("muncul");
         p.classList.add("muncul");
     } else {
@@ -70,10 +70,10 @@ window.addEventListener("scroll", function () {
         } else {
             bom.classList.remove("show");
         }
-    } else if (value > content.offsetTop - 100 && this.window.innerWidth >= 1024) {
+    } else if (value > content.offsetTop - 100 && this.window.innerWidth >= 1080) {
         judul2[1].classList.add("show");
         p2[1].classList.add("show");
-        if (value > content2[1].offsetTop - 400 && this.window.innerWidth >= 1024) {
+        if (value > content2[1].offsetTop - 400 && this.window.innerWidth >= 1080) {
             bom.classList.add("show");
         } else {
             bom.classList.remove("show");
@@ -89,7 +89,7 @@ window.addEventListener("scroll", function () {
     } else if (value > content2[2].offsetTop - 1000 && this.window.innerWidth > 480 && this.window.innerWidth <= 800) {
         judul2[2].classList.add("show");
         p2[2].classList.add("show");
-    } else if (value > content2[2].offsetTop - 400 && this.window.innerWidth >= 1024) {
+    } else if (value > content2[2].offsetTop - 400 && this.window.innerWidth >= 1080) {
         judul2[2].classList.add("show");
         p2[2].classList.add("show");
     } else {
@@ -112,7 +112,7 @@ window.addEventListener("scroll", function () {
         prok.classList.add("show");
     } else if (value > content2[3].offsetTop - 800 && this.window.innerWidth > 480 && this.window.innerWidth <= 800) {
         prok.classList.add("show");
-    } else if (value > content2[3].offsetTop - 400 && this.window.innerWidth >= 1024) {
+    } else if (value > content2[3].offsetTop - 400 && this.window.innerWidth >= 1080) {
         prok.classList.add("show");
     } else {
         prok.classList.remove("show");
@@ -122,7 +122,7 @@ window.addEventListener("scroll", function () {
         prok2.classList.add("show");
     } else if (value > content2[3].offsetTop - 400 && this.window.innerWidth > 480 && this.window.innerWidth <= 800) {
         prok2.classList.add("show");
-    } else if (value > content2[3].offsetTop - 200 && this.window.innerWidth >= 1024) {
+    } else if (value > content2[3].offsetTop - 200 && this.window.innerWidth >= 1080) {
         prok2.classList.add("show");
     } else {
         prok2.classList.remove("show");
