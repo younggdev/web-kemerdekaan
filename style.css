@@ -616,7 +616,7 @@ svg {
 }
 
 /* Tablet */
-@media (min-width: 481px) and (max-width: 1024px) {
+@media (min-width: 481px) and (max-width: 1080px) {
     body {
         overflow-x: hidden;
     }
