@@ -14,7 +14,7 @@
     display: none;
 }
 
-body {
+section {
     overflow-x: hidden;
 }
 
@@ -617,7 +617,7 @@ svg {
 
 /* Tablet */
 @media (min-width: 481px) and (max-width: 1080px) {
-    body {
+    section {
         overflow-x: hidden;
     }
     .section_1 img,
