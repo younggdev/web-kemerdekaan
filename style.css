@@ -16,7 +16,7 @@
 
 section {
     position: relative;
-    /* overflow: hidden; */
+    overflow-x: hidden;
 }
 
 /* Section 1 */
@@ -323,7 +323,7 @@ section {
     background-position: center;
     background-size: cover;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .proklamasi {
