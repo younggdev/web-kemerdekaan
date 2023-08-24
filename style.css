@@ -14,9 +14,13 @@
     display: none;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 section {
     position: relative;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 /* Section 1 */
@@ -469,7 +473,7 @@ svg {
 /* Media Queries */
 /* Phone */
 @media (max-width: 480px) {
-    section {
+    body {
         overflow-x: hidden;
     }
     .section_1 img,
@@ -613,7 +617,7 @@ svg {
 
 /* Tablet */
 @media (min-width: 481px) and (max-width: 1024px) {
-    section {
+    body {
         overflow-x: hidden;
     }
     .section_1 img,
