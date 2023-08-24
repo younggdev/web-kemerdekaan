@@ -469,6 +469,9 @@ svg {
 /* Media Queries */
 /* Phone */
 @media (max-width: 480px) {
+    section {
+        overflow-x: hidden;
+    }
     .section_1 img,
     .section_2 img {
         position: absolute;
@@ -610,6 +613,9 @@ svg {
 
 /* Tablet */
 @media (min-width: 481px) and (max-width: 1024px) {
+    section {
+        overflow-x: hidden;
+    }
     .section_1 img,
     .section_2 img {
         position: absolute;
