@@ -494,6 +494,10 @@ svg {
         height: auto;
     }
 
+    .section_1 img:nth-child(6) {
+        right: -60%;
+    }
+
     .section_1 .text {
         opacity: 0;
         font-size: 0.5em;
@@ -592,10 +596,6 @@ svg {
     .section_4 .prok.pr .prokParagraf.pp {
         padding: 0 20px 50px 20px;
     }
-
-    /* .bendera {
-        height: 100px;
-    } */
 
     .section_5 .proklamasi {
         padding-top: 30%;
