@@ -3,6 +3,10 @@
     src: url("font/RedHatDisplay-VariableFont_wght.ttf");
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -39,6 +43,24 @@ nav.top {
 
 nav img {
     width: 7%;
+}
+
+.panah {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    background-color: rgb(193, 20, 20);
+    color: white;
+    padding: 15px;
+    font-size: 1.5em;
+    border-radius: 25%;
+    z-index: 999;
+    opacity: 0;
+    transition: 1s;
+}
+
+.panah.go {
+    opacity: 1;
 }
 
 section {
@@ -509,6 +531,9 @@ svg {
 /* Media Queries */
 /* Phone */
 @media (max-width: 480px) {
+    nav img {
+        width: 15%;
+    }
     section {
         overflow-x: hidden;
     }
@@ -657,6 +682,9 @@ svg {
 
 /* Tablet */
 @media (min-width: 481px) and (max-width: 1080px) {
+    nav img {
+        width: 12%;
+    }
     section {
         overflow-x: hidden;
     }

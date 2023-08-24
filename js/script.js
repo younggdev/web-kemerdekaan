@@ -30,8 +30,10 @@ window.addEventListener("scroll", function () {
 
     if (value > 10) {
         this.document.querySelector("nav").classList.add("top");
+        this.document.querySelector(".panah").classList.add("go");
     } else {
         this.document.querySelector("nav").classList.remove("top");
+        this.document.querySelector(".panah").classList.remove("go");
     }
 
     // Section 1
